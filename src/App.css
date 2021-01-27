@@ -1,38 +1,61 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #03506f;
+  width: 100%;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.QuoteBox {
+  margin: auto;
+  width: 450px;
+  background-color: #fff;
+  padding: 40px 50px;
+  border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.QuoteText {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+.AuthorText {
+  text-align: right;
+}
+
+.ActionsRow {
+  display: flex;
+}
+
+.NewQuote {
+  margin-left: auto;
+}
+
+.button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+}
+
+.mr-icon {
+  margin-right: 1rem;
 }
